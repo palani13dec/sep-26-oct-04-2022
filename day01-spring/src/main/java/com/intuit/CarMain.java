@@ -15,6 +15,9 @@ public class CarMain {
 		Car volvo = context.getBean("volvo", Car.class);
 		volvo.drive();
 		
+		Person sam = context.getBean("person1", Person.class);
+		System.out.println(sam.getCar().getModel());
+		System.out.println(sam.getCar().getEngine().getPower());
 		
 		
 		

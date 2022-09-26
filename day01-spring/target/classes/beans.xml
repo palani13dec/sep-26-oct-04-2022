@@ -7,14 +7,27 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
 	
+	<bean id="person1" class="com.intuit.Person">
+		<property name="name" value="Sam"></property>
+		<property name="car" ref="bmw"></property>
+	</bean>
+	
 	<bean id="bmw" class="com.intuit.Car">
 		<property name="model" value="BMW"></property>
 		<property name="year" value="2020"></property>
+		<property name="engine" ref="engine1"></property>
 	</bean>
 	
 	<bean id="volvo" class="com.intuit.Car">
 		<property name="model" value="Volvo"></property>
 		<property name="year" value="2022"></property>
+		<property name="engine" ref="engine1"></property>
 	</bean>
+	
+	<bean id="engine1" class="com.intuit.Engine">
+		<property name="power" value="2000"></property>
+	</bean>
+	
+	
 	
 </beans>	
