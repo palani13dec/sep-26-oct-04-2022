@@ -25,12 +25,28 @@ public class Day01SpringbootApplication implements CommandLineRunner {
 	
 	@Autowired
 	private Person person;
+	
+	@Autowired
+	private Company intuit;
+	
+	@Autowired
+	private Company hp;
+	
+	@Autowired
+	private Company fb;
 
 	@Override
 	public void run(String... args) throws Exception {
 		//Called after the container completes all the initializations
-		car.drive();
-		System.out.println(person.getCar().getModel());
+		
+		System.out.println(intuit);
+		System.out.println(hp);
+		System.out.println(fb);
+		
+		
+		
+//		car.drive();
+//		System.out.println(person.getCar().getModel());
 		
 	} 
 	

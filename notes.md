@@ -55,6 +55,10 @@ class Account {
 ## ApplicationContext
 
 * Container that manages the lifecycle of the beans
+* All the beans are in __singleton scope__ by default
+* Active Container; It instantiates all the beans during startup
+* Components are instantiated using default no-args constructor
+* You have to specify the values explicitly if a paremeterized constructor is found
 
 
 
