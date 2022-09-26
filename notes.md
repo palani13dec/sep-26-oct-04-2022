@@ -37,9 +37,24 @@ class Account {
 * Create Ordinary Java classes (Java beans)
 * Configure the java beans and specify what services they need
 * Load the container provided by spring
+* Access the beans and their methods
 ```
 
+## Enter spring boot
 
+* Bootstrap application development with Spring
+
+```
+* Create a spring boot project
+* Create Ordinary Java classes (Java beans)
+* Access the beans and their methods
+```
+
+* An abstraction of spring framework
+
+## ApplicationContext
+
+* Container that manages the lifecycle of the beans
 
 
 
