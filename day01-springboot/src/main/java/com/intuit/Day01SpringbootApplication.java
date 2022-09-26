@@ -35,6 +35,9 @@ public class Day01SpringbootApplication implements CommandLineRunner {
 	@Autowired
 	private Company fb;
 
+	@Autowired
+	private Training training;
+	
 	@Override
 	public void run(String... args) throws Exception {
 		//Called after the container completes all the initializations
@@ -43,6 +46,7 @@ public class Day01SpringbootApplication implements CommandLineRunner {
 		System.out.println(hp);
 		System.out.println(fb);
 		
+		System.out.println(training.getName() + ", " + training.getTopics());
 		
 		
 //		car.drive();
