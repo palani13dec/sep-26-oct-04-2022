@@ -17,11 +17,15 @@ public class Day02SpringbootApplication implements CommandLineRunner {
 	
 	@Autowired
 	private Company company;
+	
+	@Autowired
+	private Person person;
 
 	@Override
 	public void run(String... args) throws Exception {
 		System.out.println(car1.getModel() + ", " + car1.getYear());
 		System.out.println(company);
+		System.out.println(person.getHobbies());
 		
 	}
 }
