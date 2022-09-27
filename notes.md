@@ -60,6 +60,45 @@ class Account {
 * Components are instantiated using default no-args constructor
 * You have to specify the values explicitly if a paremeterized constructor is found
 
+## Day 01 (Recap)
+
+* Dependency injection
+* ApplicationContext that acts as a container
+* Container instantiates all the beans on startup
+* Singleton scope by default
+* Create Java beans
+* @Component, @Autowired, @Value, @Scope, @Lazy
+* Spring starter/Spring Initialzr
+* Configuring key=value pairs in application.properties
+* You can refer to the property using __${xyz}__
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

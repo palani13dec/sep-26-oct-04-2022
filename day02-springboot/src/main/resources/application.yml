@@ -1,0 +1,13 @@
+car:
+ make: Ferrari
+ yearOfRelease: 2022
+
+
+my-company:
+ name: Apple
+ employees: 200000
+ ceo: Cook
+
+
+#car.make=Ferrari
+#car.yearOfRelease=2021
