@@ -73,11 +73,29 @@ class Account {
 * You can refer to the property using __${xyz}__
 
 
+## Day 02 (Recap)
+
+* configuring properties in .properties or .yml files
+* @ConfigurationProperties(prefix="parentProperty")
+* Class marked with __@Configuration__
+* You can configure __@Bean__ 
+* You can differentiate using __@Qualifier__
+* Spring boot with Web
+* Embedded Tomcat container
+* Create @RestController and map the methods using @Get/Post/Put Mapping
+* @PathVariable, @RequestParam
+* Heart of a Spring boot web application is __DispatcherServlet__
+* The response is automatically serialized into JSON (Jackson)
+* __@RequestBody__
+* RestTemplate and HttpClient
 
 
 
+## Controller vs RestController
 
-
+* RestController returns data (Json or text or xml)
+* Controller returns view(or page) information
+* View has to be resolved to a physical page
 
 
 
