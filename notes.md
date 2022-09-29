@@ -108,7 +108,7 @@ class Account {
 
 
 
-
+* java -jar -Dserver.port=8083 day04-jpa-web-0.0.1-SNAPSHOT.jar
 
 
 
