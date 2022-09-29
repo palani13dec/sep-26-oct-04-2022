@@ -98,6 +98,13 @@ class Account {
 * View has to be resolved to a physical page
 
 
+## Day 03 (Recap)
+
+* __@Controller__ that's used to create traditional web applications
+* JdbcTemplate to perform CRUD operations in DB
+* JPA 
+* Create a table; Create an Entity class; Map the table and the class; Map the columns with the properties
+* Define a Repository by specifying the Entity class and the Primary key type
 
 
 
