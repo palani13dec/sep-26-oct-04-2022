@@ -4,8 +4,7 @@
 			let fetchSquareFromServer = () => {
 				let num = document.getElementById("num").value;
 				let url = "/square/" + num;
-				fetch(url, 
-				{ 
+				fetch(url, { 
 					method: "POST" 
 				})
 				.then(response => response.text())
