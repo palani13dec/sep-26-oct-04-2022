@@ -1,6 +1,6 @@
 spring:
   application:
-    name: math-api
+    name: math-ui
 server:
  port: 7070    
 
