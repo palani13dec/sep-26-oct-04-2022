@@ -111,7 +111,16 @@ class Account {
 * java -jar -Dserver.port=8083 day04-jpa-web-0.0.1-SNAPSHOT.jar
 
 
+## Day 04 (Recap)
 
+* Spring Data REST
+* custom methods in JPA
+* findBy, findAllBy,
+* JPA QL, Native query
+* Deployed as jar files
+* Package it as a jar using maven (__mvn build package__)
+* Dynamically change the properties using __-Dkey=<value>__ option
+	
 
 
 
