@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: math-ui
+server:
+ port: 8080    
