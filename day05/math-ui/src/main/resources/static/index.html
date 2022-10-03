@@ -1,10 +1,24 @@
 <html>
 	<head>
+		<script>
+			let fetchSquareFromServer = () => {
+				let num = document.getElementById("num").value;
+				let url = "/square/" + num;
+				fetch(url, 
+				{ 
+					method: "POST" 
+				})
+				.then(response => response.text())
+				.then(data => document.getElementById("squareh1").innerHTML = data);
+				
+			};
+			
+		</script>
 	</head>
 	<body>
 		<input type="number" id="num" placeholder="Enter your number">
 		<br/>
-		<button id="squarebtn">Square</button>
+		<button onclick="fetchSquareFromServer();">Square</button>
 		<h1 id="squareh1"></h1>
 	</body>
 </html>

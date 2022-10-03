@@ -1,5 +1,10 @@
 spring:
   application:
-    name: math-ui
+    name: math-api
 server:
- port: 8080    
+ port: 7070    
+
+math:
+ service:
+  base:
+   url: http://localhost:8081/math
