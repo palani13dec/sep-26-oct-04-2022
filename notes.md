@@ -121,7 +121,14 @@ class Account {
 * Package it as a jar using maven (__mvn build package__)
 * Dynamically change the properties using __-Dkey=<value>__ option
 	
+## Day 05 (Recap)
 
+* Spring Cloud
+* Eureka (discovery) service
+* Gateway service (Zuul)
+* A service that wants to talk to another service uses the Gateway service
+* Gateway service will get the details of the service from Eureka and route the request
+* Client load balancer (Ribbon)
 
 
 
