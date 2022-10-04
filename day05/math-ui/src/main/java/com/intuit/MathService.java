@@ -5,6 +5,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+
 @Service
 public class MathService {
 
@@ -18,5 +20,6 @@ public class MathService {
 		ResponseEntity<Integer> responseEntity = restTemplate.getForEntity(url, Integer.class);
 		return responseEntity.getBody();
 	}
+	
 
 }

@@ -7,4 +7,5 @@ server:
 math:
  service:
   base:
-   url: http://localhost:7000/api/v1/math-api/math
+    url: http://localhost:8081/math
+#   url: http://localhost:7000/api/v1/math-api/math
