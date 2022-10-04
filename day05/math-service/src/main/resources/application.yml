@@ -6,5 +6,23 @@ server:
 
 eureka:
   client:
+    register-with-eureka: false
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+    beans:
+      enabled: true
+    shutdown:
+      enabled: true
+  info:
+    env:
+      enabled: true            
+      
