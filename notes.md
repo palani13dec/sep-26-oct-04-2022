@@ -142,9 +142,9 @@ class Account {
 * Provide InMemory Authentication by supplying the credentials in the configuration class
 * Provide DaoAuthentication
 * Use __UserDetails__ and __UserDetailsService__ to read the credentials from a DB
+* Use OAuth and plugin github/FB/Gmail authentication
 
-
-
+* -Dspring.profiles.active=<profileName>
 
 
 
