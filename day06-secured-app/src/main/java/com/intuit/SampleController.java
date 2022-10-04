@@ -9,6 +9,7 @@ public class SampleController {
 
 	@GetMapping("/home/{name}")
 	public String home(@PathVariable String name) {
+		//write security code
 		return "Welcome home " + name;
 	}
 	
