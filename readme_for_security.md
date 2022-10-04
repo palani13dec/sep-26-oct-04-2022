@@ -1,4 +1,4 @@
-* Create a Spring Boot application __my-secured-app__ by selecting Spring Web and Spring starter security templates
+* Create a Spring Boot application __my-secured-app__ by selecting Spring Web and Spring security templates
 * Start the application
 * default username is __user__ and password is in the console, generated for you.
 * For example console shows __Using generated security password: 5fd13e36-d18f-4e48-befd-ea73e2556559__
