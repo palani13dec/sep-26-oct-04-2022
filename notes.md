@@ -133,7 +133,15 @@ class Account {
 * __Actuator__ to get the metrics of a running Spring boot application
 
 
+## Spring Security
 
+* Add Spring Security
+* User/Password is generated for you
+* Customize user/password through yml file
+* Customize the endpoints that need authentication by creating a configuration class
+* Provide InMemory Authentication by supplying the credentials in the configuration class
+* Provide DaoAuthentication
+* Use __UserDetails__ and __UserDetailsService__ to read the credentials from a DB
 
 
 
