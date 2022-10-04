@@ -121,14 +121,16 @@ class Account {
 * Package it as a jar using maven (__mvn build package__)
 * Dynamically change the properties using __-Dkey=<value>__ option
 	
-## Day 05 (Recap)
+## Spring Cloud tools
 
 * Spring Cloud
-* Eureka (discovery) service
+* __Eureka__ (discovery) service
 * Gateway service (Zuul)
 * A service that wants to talk to another service uses the Gateway service
-* Gateway service will get the details of the service from Eureka and route the request
-* Client load balancer (Ribbon)
+* __Gateway__ service will get the details of the service from Eureka and route the request
+* __Client load balancer__ (Ribbon)
+* __Hystrix__ (Circuit Breaker; Deprecated; In the latest version we use Resilience4j)
+* __Actuator__ to get the metrics of a running Spring boot application
 
 
 
